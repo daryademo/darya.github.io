@@ -1,52 +1,87 @@
-<html>
+
         <style> 
 
             body {
-                font-family:Arial, Helvetica, sans-serif
+                font-family:Arial, Helvetica, sans-serif;
+            
             }
     
-            h1 { color:peru ;}
-            h3 { color: peru;}
 
-            
+            h1 { 
+                color:peru ;
+                font-size: 15px ;
+                position: relative;
+                margin-top: 10px;
+                margin-left: 50%;
+              
+            }
+
+            h5 { 
+                color: black;
+                font-size: 15px ;
+                position: relative;
+                margin-top: 10px;
+                
+                
+               
+              
+            }
+
+            h3 { 
+                color: peru;
+            }
+         
+
+            h4{
+                font-size: 15px;
+                margin-top: 0px;
+            }
+
+
             thead{
                 font-weight: bold;
             }
 
+
             thead td {
                 text-align: center;
             }
+
 
             table{
                 border-collapse:collapse;
                 width: 100%;
             }
 
+
             td {
                 border: 1px solid black ;
                 padding: 10px;
             }
 
+
             tbody tr:hover {
                 background-color:peru;
                 cursor:pointer
             }
-               
-
+             
+            
             .name {
                 color:peru;
             }
+
 
             #page-title {
                 font-size: 20px;
                 text-decoration:none;
             }
 
+
             .test {
                 background-color: peru;
                 height: 10px;
-
             }
+
 
             .test2 {
                 background-color: peru;
@@ -59,15 +94,103 @@
 
             body {
                 font-family: Arial, Helvetica, sans-serifQ;
+                margin: 0px;
+
             }
             
-            h1 { color:peru; }
 
             .test3 {
                 background-color: peru;
                 height: 10px;
+                margin-top: 50px;
+
+            }
+
+
+            
+            head {
+                margin: 0px ;
+            }
+    
+            .menu{
+                position:absolute;
+                height: 40px;
+                width: 100%;
+                background-color: rgb(207, 103, 103);
+                opacity: 100%;
+             
+                
+            }
+    
+            .menu-item{
+                position: absolute;
+                display: inline-block;
+                height: 40px;
+                width: 70px;
+                background-color: rgb(15, 177, 0);
+                margin-top: 0px;
+                text-align:center;
+                cursor: pointer;
+               
+             
+
+            }
+    
+            .menu-item2{
+                position: absolute;
+                display: inline-block;
+                width: 70px;
+                height: 40px;
+                background-color: rgb(15, 177, 0);
+                margin-left: 90%;
+                text-align:center;
+                
+            }
+
+
+            .dropdown{
+                height: 400px;
+                width: 150px;
+                display: block;
+                background-color: purple;
+                position: absolute;
+                top: 100%;
+                opacity: 50%;
+                display: none;
 
             }
             
+
+            .menu-item:hover {
+                background-color: peru;
+                opacity: 50%;
+            }
+
+            .menu-item:hover .dropdown {
+                background-color: peru;
+                display: block;
+            }
+
+            .menu-item:hover h5 {
+                color: peru;
+                display:inline;
+                
+            }
+
+            .dropdown-item{
+                padding: 10 px 30px 10px 30px;
+                white-space: nowrap;
+    
+            }
+
+            .dropdown-item:hover {
+                background-color: peru;
+            }
+
+         
+            
+
+
+
+
             </style>
-</html>
